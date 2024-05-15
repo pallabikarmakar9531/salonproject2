@@ -1,0 +1,220 @@
+.{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: fantasy;
+font-style: italic;
+
+
+
+}
+
+.head{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-transform: capitalize;
+display: flex;
+position: sticky;
+justify-content: space-between;
+  background-color:rgb(199, 81, 111); 
+  font-style: italic;
+  font-weight: bold;
+}
+
+.navbar{
+        padding: 5px;
+        display: flex;
+        text-transform: capitalize;
+        justify-content: space-between;
+        gap: 20%;
+      box-shadow: black;
+      }
+.head button{
+        box-sizing: border-box;
+        box-shadow: 2px;
+        text-align: center;
+        text-transform: capitalize;
+        font-style: italic;
+        font-size: large;
+        color: black;
+        font-weight: bold;
+        background-color: rgb(255, 153, 0);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .para{
+        text-align: center;
+        color: black;
+        background-color: pink;
+        font-size: 50PX;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2PX;
+
+    }
+   
+.image0{
+    width:30%;
+    height: 30%;
+    border: 2px;
+    border-radius: 8px;
+    background-size: cover;
+   background-position: 100%;
+   text-align: center;
+background-color:pink;
+}
+
+.paragraph{
+
+    text-align: center;
+    color: black;
+    background-color: pink;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 9PX;
+font-style: italic;
+font-size: 50px;
+}
+.hover{
+    width: 90%;
+   flex-direction: row;
+    display: flex;
+    margin: 100px auto;
+    padding: 20px;
+    justify-content: center;
+    gap: 5%;
+    background-color: pink;
+}
+  .o{
+    width: 200px;
+    box-shadow: 0 0 10px rgba(240, 12, 23, 0.1);
+    margin: 10px;
+  }
+  .o:hover{
+    transform: scale(2,3);
+    z-index: 3;
+  }
+.hover .o img{
+    width: 100%;
+
+    display: block;
+    border-radius: 6px;
+}
+.live{ 
+  align-items: center;
+}
+
+.my h1{ 
+  text-align: center;
+background-position: center;
+color: crimson;
+font-weight: bolder;
+font-size: 50px;
+}
+.part2{
+  justify-content: space-between;
+  display: flex;
+  gap: 2%;
+
+}
+
+.image1{
+  width: 40%;
+  
+}
+.image2{
+  width: 60%;
+}
+.video{
+  text-align: center;
+  background-color: pink;
+}
+.video p{
+  font-size: 50PX;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+}
+.image3{
+  width: 20%;
+  height: 5px;
+  background: fixed;
+  background-size: cover;
+  background-color: pink;
+}
+.feedback{
+  text-align: center;
+  padding: 2%;
+  font-weight: bold;
+  font-style: italic;
+  background-color: pink;
+  font-size: 20PX;
+
+}
+
+.box2{
+  display: flex;
+text-align: center;
+background-color: pink;
+}
+
+.first{
+  box-shadow: 10px 5px 6px black; 
+  margin: 9%;
+  color: darkred;
+  padding: 5px;
+  font-style: oblique;
+  font-weight: bold;
+  background-color: aliceblue;
+
+}
+.first h3{
+
+  color: black;
+}
+
+.first p{
+  font-weight: 700;
+  color: blue;
+}
+footer{
+  color: #2f00ff;
+  padding-top: 49px;
+  justify-content: space-between;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+ 
+}
+.footer{
+  width: 40.3%;
+ 
+}
+.last{
+  display: flex;
+  width: 1400px;
+justify-content: center;
+  margin: auto;
+  gap: 20px;
+  padding-top: 9px;
+}
+
+
+.footer .last p{
+  width: 100px;
+  font-size: 24px;
+  padding: 19px;
+}
+
+.footer .last i{
+ width: 100px;
+ padding-top: 5px;
+ padding: 9PX;
+
+}
+
+
